@@ -27,20 +27,20 @@ form {
 #question {
   font-size: 25px;
   text-align: left;
-  color: red;
+  color: #AA422F;
   font-weight: bold;
   border: none;
   margin-left: 80px;
   display: block;
 }
 .popupFeedback {
-  background-color: Tomato;
+  background-color: #c02424;
   border-radius: 6px;
   width: 300px;
   margin: auto;
   text-align: center;
   font-family: "Roboto", serif;
-  color: black;
+  color: #FFFFFF;
   position: relative;
   font-size: 18px;
   font-weight: bold;
@@ -52,13 +52,13 @@ input[type="radio"] {
 .radioButtons {
   margin-left: 30px;
   font-size: 20px;
-  color: blue;
+  color: #34495e;
   font-weight: bold;
   display: block;
 }
 
 .allQuestions {
-  background-color: MistyRose;
+  background-color: #8efdcb;
   border-radius: 6px;
   margin: auto;
   width: auto;
