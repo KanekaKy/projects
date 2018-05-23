@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Quiz App</title>
+</head>
+
+<body>
+  <header role="banner">
+    <div class="container">
+      <h1 class="thinkfulQuiz">Kaneka Quiz</h1>
+      <p> You can test your jQuery knowledge with Thinkful Quiz.</p>
+      <p> The quiz consists of 10 multiple choice question and each question has five answers where you can select only one right anwer.</p>
+      <h2>Count your score</h2>
+      <p>You will get 1 point for each correct answer. At the end of the Quiz, your total score will be displayed. Maximum score is 10 points.</p>
+      <form class="startQuiz"><input type="submit" class="startQuiz" value="Start the Quiz"></form>
+    </div>
+  </header>
+  <main role="main">
+    <div class="allQuestions">
+      <form role="form">
+        <fieldset id="question"></fieldset>
+        <div class="feedback"></div>
+        <div class="questionStatus"></div>
+        <input type='submit' id='myBtn' value='Submit Answer' />
+        <input type='button' id='next' value='Next Question' />
+        <div class="result"></div>
+      </form>
+    </div>
+    <div class="popupFeedback"></div>
+    <div class="result"></div>
+    <div class="restartQuiz"><input type='submit' id="restartQuiz" value='Restart Quiz' /></div>
+  </main>
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
